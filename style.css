@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#head{
+    width: 100%;
+    background-color: bisque;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#head img{
+    margin-right: 43%;
+}
+
+/* Main */
+
+.s_1{
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 494px;
+    background-color: #B1DDE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_1 p{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.s_1 p strong{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+
+
+.s_2{
+    margin: 20px 20px;
+}
+
+.container_card{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.container_card div:last-child{
+    margin-left: 10px;
+}
+.container_card div:nth-last-child(2){
+    margin-left: 10px;
+}
+
+.card_content>p,input,ul{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.container_card{
+    height: 387px;
+    width: 288px;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+}
+
+.spis_ul{
+    list-style: none;
+    list-style-image: url(assets/Vector.png);
+    list-style-position: inside;
+    color: #6A8589;
+}
+
+.btn{
+    color: #636363;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+.s_3{
+    width: 100%;
+    height: 297px;
+    background-color: #E5F8BC;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.zagolovok{
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn_s_3{
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-shadow: 0px 70px 50px 60px #E5F8BC;
+}
+
+
+.s_4{
+    margin-top: 0;
+    width: 100%;
+    height: 400px;
+    background-color: #E5F8BC;
+}
+
+.img_bg{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(assets/restaurants\ 1.png);
+    z-index: 2;
+
+}
+
+
+.s_6{
+    margin: 20px 20px;
+}
+.pizzas_container{
+    /* display: flex; */
+    overflow-x: scroll;
+    /* height: 200px; */
+}
+
+/* .pizzas_container div{
+    display: flex;
+} */
+
+
+.pizza_card {
+    width: 120px;
+    height: 162p;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    display: flex;
+}
+
+.pizza_card div{
+    margin-left: 10px;
+    background-color: #F9F9F9;
+}
+
+.pizza_card p{
+    text-align: center;
+    margin-top: 5px;
+}
+.pizza_card div img{
+    display: block;
+}
+
+
+.s_7{
+    width: 100%;
+    height: 600px;
+    background-color: #2C2C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.s_7 div{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
